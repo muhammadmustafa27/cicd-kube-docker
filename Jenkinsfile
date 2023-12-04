@@ -8,7 +8,7 @@ pipeline {
 */
     environment {
         registry = "mmustafa1/vproappdock"
-        registryCredentials: "dockerhub"
+        registryCredentials = "dockerhub"
     }
 
     stages{
